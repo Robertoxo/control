@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="8AFB3BE7B3510CDD9869317773C65CC5B0B437F399E1034601A8908A4E4FF8AC196BD5867E9A592ADBC0A574FB1197D2B2790CF574ED03047686E324DAB69A2E" Timestamp="1D6BF3E8B3D8DBA" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition Company="uVA" Product="WebApp" ShortDescription="uVA CONTROL MOTOR WEB" TargetedProduct="LabVIEW" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionDependencyContent DisplayName="ni-certificates" Id="33bdaab213404405822db556573bd079" Included="False" Name="ni-certificates" RequirementType="Recommended" VersionRequirement="None" />
+		<DistributionOutput CachedDisplayName="Package Installer" Id="a0c03afe40b7459abae9daeb88b23080" p3:CustomNipmPackageName="uva-controlmotorweb" p3:DistributionCategory="Application" p3:MaintainerEmail="roberto.soladana@alumnos.uva.es" p3:MaintainerName="uVA" p3:PackageDisplayName="WebApp" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="b9a4575e691f4d7d8401afc2fd8c9de3" Target="::Web Server" />
+		<DistributionMemberDependencySource Id="7eb49460fd4c04bcc2e41764267a5c" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Rebuild" RelativeLocation="&quot;Web Server\\htdocs\\WebApp&quot;" RootLocation="NISharedDirectory64" Target="::Web Server::Interactive::WebApp.gcomp" />
+		<DistributionDependencyContent DisplayName="NI Web Server" Id="a8d5624d09b944e59dd7b092e4d4fd00" Included="False" MaintainerName="National Instruments" Name="ni-webserver" Version="20.0.0.49152-0+f0" />
+	</DistributionDefinition>
+</SourceFile>
